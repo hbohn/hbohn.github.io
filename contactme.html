@@ -1,13 +1,12 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <style>
-
       #name {
-        background-color: lightpink;  
-        color: darkred;               
-        border: 2px solid darkred;   
+        background-color: lightpink;
+        color: darkred;
+        border: 2px solid darkred;
         padding: 10px;
         width: 100%;
         margin-bottom: 15px;
@@ -16,8 +15,8 @@
       }
 
       #email {
-        background-color: lightgreen; 
-        color: darkgreen;             
+        background-color: lightgreen;
+        color: darkgreen;
         border: 2px solid darkgreen;
         padding: 10px;
         width: 100%;
@@ -27,8 +26,8 @@
       }
 
       #subject {
-        background-color: lightblue; 
-        color: darkblue;             
+        background-color: lightblue;
+        color: darkblue;
         border: 2px solid darkblue;
         padding: 10px;
         width: 100%;
@@ -38,8 +37,8 @@
       }
 
       #message {
-        background-color: lightyellow; 
-        color: darkorange;             
+        background-color: lightyellow;
+        color: darkorange;
         border: 2px solid darkorange;
         padding: 10px;
         width: 100%;
@@ -50,12 +49,12 @@
       }
 
       textarea {
-        height: 100px;                 
+        height: 100px;
       }
 
       button[type="submit"] {
-        background-color: #05b5f5;   
-        color: white;                 
+        background-color: #05b5f5;
+        color: white;
         border: none;
         padding: 10px 20px;
         font-size: 16px;
@@ -64,7 +63,7 @@
       }
 
       button[type="submit"]:hover {
-        background-color: navy;       
+        background-color: navy;
       }
 
       body {
@@ -80,30 +79,28 @@
       <a href="contactme.html">Contact Me</a>
     </div>
   </body>
-  <head>
-    <div style="padding-left: 16px; max-width: 600px; font-size: 20px">
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Contact Form</title>
-    </head>
+  <div style="padding-left: 16px; max-width: 600px; font-size: 20px">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
     <body>
       <h2>Contact Me</h2>
       <form action="/submit-form" method="POST">
         <label for="name">Name:</label><br />
         <input type="text" id="name" name="name" required /><br /><br />
-  
+
         <label for="email">Email:</label><br />
         <input type="email" id="email" name="email" required /><br /><br />
-  
+
         <label for="subject">Subject:</label><br />
         <input type="text" id="subject" name="subject" required /><br /><br />
-  
+
         <label for="message">Message:</label><br />
         <textarea id="message" name="message" rows="5" required></textarea
         ><br /><br />
-  
+
         <button type="submit">Submit</button>
       </form>
     </body>
-    </div>
+  </div>
 </html>
