@@ -1,0 +1,219 @@
+.body-class {
+    background-color: #F5FBFF;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header-class {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 8px; 
+}
+
+.nav-class {
+    background-color: #bdc3c7; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px; 
+}
+
+.nav-link-class {
+    color: #2c3e50; 
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 28px;
+}
+
+.nav-link-class:hover {
+    color: #2980b9; 
+}
+
+.nav-link-class.active {
+    font-weight: bold; 
+    color: #34495e; 
+}
+
+.title-class {
+    color: #ffffff;
+}
+
+.section-title-class {
+    color: #2c3e50;
+    font-size: 35px;
+    text-transform: uppercase; 
+}
+
+.image-class {
+    border: 8px solid #34495e; 
+    border-radius: 8px; 
+    padding: 5px; 
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container {
+    width: 100%;         
+    max-width: 100%;    
+    overflow: hidden;    
+}
+
+.form-class {
+    background-color: #bdc3c7;
+    padding: 20px;
+    border-radius: 8px; 
+    max-width: 500px; 
+}
+
+.input-class {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 2px solid #bdc3c7; 
+    border-radius: 4px; 
+    font-size: 20px;
+    background-color: #fff; 
+}
+
+.input-class:focus {
+    border-color: #34495e; 
+    outline: none; 
+}
+
+.button-class {
+    background-color: #34495e; 
+    color: #fff; 
+    padding: 12px 20px; 
+    font-size: 18px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.button-class:hover {
+    background-color: #2980b9; 
+}
+
+.footer-class {
+    background-color: #34495e; 
+    color: #ffffff; 
+    padding: 20px; 
+    text-align: center;
+    font-size: 15px; 
+    margin-top: 20px; 
+    border-radius: 8px; 
+}
+
+.text-class {
+    font-size: 25px;
+}
+
+.faq-question-class {
+    font-size: 28px; 
+}
+
+.label-class {
+    font-size: 25px; 
+}
+
+.cite-class {
+    font-size: 25px; 
+}
+
+@media (max-width: 768px) {
+    .header-class {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .nav-link-class {
+        font-size: 22px; 
+        margin: 0 8px;
+    }
+
+    .section-title-class {
+        font-size: 28px; 
+    }
+
+    .image-class {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .form-class {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .input-class {
+        font-size: 18px; 
+    }
+
+    .button-class {
+        font-size: 16px; 
+    }
+
+    .footer-class {
+        font-size: 14px; 
+    }
+
+    .text-class {
+        font-size: 20px; 
+    }
+
+    .faq-question-class {
+        font-size: 22px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .header-class {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .nav-link-class {
+        font-size: 18px;
+        margin: 0 5px;
+    }
+
+    .section-title-class {
+        font-size: 24px;
+    }
+
+    .image-class {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .form-class {
+        max-width: 95%; 
+        padding: 10px;
+    }
+
+    .input-class {
+        font-size: 16px;
+    }
+
+    .button-class {
+        font-size: 14px; 
+    }
+
+    .footer-class {
+        font-size: 12px; 
+    }
+
+    .text-class {
+        font-size: 18px; 
+    }
+
+    .faq-question-class {
+        font-size: 20px;
+    }
+}
+
