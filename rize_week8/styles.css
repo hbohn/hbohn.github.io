@@ -49,6 +49,14 @@
     border: 8px solid #34495e; 
     border-radius: 8px; 
     padding: 5px; 
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container {
+    width: 100%;         
+    max-width: 100%;    
+    overflow: hidden;    
 }
 
 .form-class {
@@ -132,6 +140,7 @@
     .image-class {
         width: 100%;
         height: auto;
+        margin: 0 auto;
     }
 
     .form-class {
@@ -179,6 +188,7 @@
     .image-class {
         width: 100%;
         height: auto;
+        margin: 0 auto;
     }
 
     .form-class {
