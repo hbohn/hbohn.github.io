@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: #f3e0dc;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #BC4639;
+    color: #f3e0dc;
+}
+
+.company-name {
+    font-size: 50px;
+    font-weight: bold;
+    color: #f3e0dc;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 1.5rem;
+}
+
+.navbar-links a {
+    color: #f3e0dc;
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #f3e0dc;
+}
+
+footer {
+    background-color: #BC4639;
+    color: #f3e0dc;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #f3e0dc;
+  }
+
+  .footer-links li {
+    margin: 0 15px;
+  }
+
+  .footer-links a {
+    color: #f3e0dc;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+        padding: 1rem;
+    }
+
+    .company-name {
+        font-size: 1.8rem; /* Smaller text size */
+        margin-bottom: 0.5rem;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0.5rem;
+    }
+
+    .navbar-links li {
+        margin: 0.5rem 0;
+    }
+
+    .navbar-links a {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+
+    .footer-links li {
+        margin: 5px 0;
+    }
+
+    .footer-links a {
+        font-size: 0.9rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .company-name {
+        font-size: 1.5rem; /* Even smaller text size for very small screens */
+    }
+
+    .navbar-links a {
+        font-size: 0.9rem;
+    }
+
+    .footer-links a {
+        font-size: 0.8rem;
+    }
+}
